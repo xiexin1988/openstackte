@@ -3,6 +3,7 @@
 import  threading #线程接口
 import  time      #时间
 import eventlet   #并发
+cc
 
 eventlet.monkey_patch() #线程控制
 pool = eventlet.GreenPool(10) #并发数
